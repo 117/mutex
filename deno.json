@@ -1,6 +1,7 @@
 {
     "name": "@117/mutex",
-    "version": "1.0.0",
+    "description": "A mutex implementation for Deno that supports async/await.",
+    "version": "1.0.1",
     "exports": "./mod.ts",
     "imports": {
         "@/": "./",
