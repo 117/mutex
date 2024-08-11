@@ -1,1 +1,1 @@
-export { createMutex } from "@/src/createMutex.ts";
+export { createMutex, type Mutex } from "@/src/createMutex.ts";

@@ -1,4 +1,9 @@
-const createMutex = () => {
+type Mutex = {
+    acquire: () => Promise<void>;
+    release: () => void;
+};
+
+const createMutex = (): Mutex => {
     let locked = false;
     const waiting: (() => void)[] = [];
 
@@ -22,4 +27,4 @@ const createMutex = () => {
     return { acquire, release };
 };
 
-export { createMutex };
+export { createMutex, type Mutex };
