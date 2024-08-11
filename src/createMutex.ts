@@ -2,6 +2,7 @@
 
 /**
  * Represents a mutex object with methods to acquire and release the lock.
+ *
  * @property {() => Promise<void>} acquire - Acquires the mutex.
  * @property {() => void} release - Releases the mutex.
  */
@@ -14,6 +15,7 @@ type Mutex = {
 
 /**
  * Creates a mutex object with acquire and release methods.
+ *
  * @returns {Mutex} A mutex object with acquire and release methods.
  */
 const createMutex = (): Mutex => {
