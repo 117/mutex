@@ -1,4 +1,4 @@
-name: publish
+name: deploy
 on:
   push:
     branches:
@@ -11,5 +11,11 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
-      - name: publish to jsr
+      - name: set up Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      - name: run Deno tests
+        run: deno test
+      - name: publish to JSR
         run: npx jsr publish
