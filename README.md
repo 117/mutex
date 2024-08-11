@@ -1,7 +1,7 @@
 # mutex
 
 ![version](https://img.shields.io/jsr/v/%40117/mutex?style=flat-square&color=%23ff51bc&label=version)
-![status](https://img.shields.io/github/actions/workflow/status/117/mutex/publish.yml?style=flat-square)
+![status](https://img.shields.io/github/actions/workflow/status/117/mutex/deploy.yml?style=flat-square)
 
 A mutex implementation for Deno that supports async/await.
 
