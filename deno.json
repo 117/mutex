@@ -1,0 +1,9 @@
+{
+    "name": "@117/mutex",
+    "version": "1.0.0",
+    "exports": "./src/mod.ts",
+    "imports": {
+        "@/": "./",
+        "assert": "https://deno.land/std@0.224.0/assert/mod.ts"
+    }
+}
