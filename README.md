@@ -28,7 +28,7 @@ $ deno add @117/mutex
 ## Example
 
 ```ts
-import { createMutex } from "jsr:@117/mutex";
+import { createMutex } from "@117/mutex";
 
 const mutex = createMutex();
 
