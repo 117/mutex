@@ -21,8 +21,8 @@ A mutex implementation for Deno that supports async/await.
 
 For Deno:
 
-```console
-deno add @117/mutex
+```sh
+$ deno add @117/mutex
 ```
 
 ## Example
